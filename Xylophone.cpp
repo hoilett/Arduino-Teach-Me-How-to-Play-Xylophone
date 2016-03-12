@@ -7,3 +7,28 @@
 //
 
 #include "Xylophone.h"
+
+
+
+Xylophone::Xylophone()
+{
+    
+}
+
+
+Xylophone::Xylophone(uint8_t speaker)
+{
+    MusicPlayer myPlayer = MusicPlayer(speaker);
+}
+
+
+void Xylophone::volume()
+{
+    
+}
+
+
+Xylophone::begin()
+{
+    
+}
