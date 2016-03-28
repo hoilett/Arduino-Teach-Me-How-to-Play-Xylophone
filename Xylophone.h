@@ -37,6 +37,13 @@
 #include "MusicPlayer.h"
 
 
+const uint8_t numSensors = 12;
+uint8_t sensors[numSensors] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+int set1[] = {C5, D5, E5, F5, G5, LA5, B5, C6, D6, E6, F6, G6}
+const int threshold = 90;
+
+const uint8_t LEDs[numSensors] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+
 class Xylophone
 {
 private:
